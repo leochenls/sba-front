@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-      	GIT_URL = "git@github.ibm.com:leochenls/sba-front.git"
+      	GIT_URL = "git@github.com:leochenls/sba-front.git"
 		GIT_CRED = "28f46d03-3138-4cee-a4ed-c134e7b90240"
 		DOCKER_REPO="registry.cn-shanghai.aliyuncs.com/chenls/sba-front"
 		DOCKER_REG="https://registry.cn-shanghai.aliyuncs.com"
